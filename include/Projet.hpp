@@ -22,7 +22,7 @@ namespace travel {
 
         std::vector<std::pair<uint64_t, uint64_t>> compute_travel(const std::string&, const std::string&) override;
         std::vector<std::pair<uint64_t, uint64_t>> compute_and_display_travel(const std::string& _start, const std::string& _end) override;
-
+        std::vector<std::string> getAllStationNames() const;
         void read_connections(const std::string& _filename) override;
         void read_stations(const std::string& _filename) override;
 

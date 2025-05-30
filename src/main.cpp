@@ -1,42 +1,28 @@
-#include "../include/Projet.hpp"
-using namespace travel;
-#include <filesystem>
-namespace fs = std::filesystem;
+#include <QApplication>
+#include <QDebug>  // Pour qDebug()
+#include <filesystem>  // Pour std::filesystem
+#include "mainwindow.h"
+#include "Projet.hpp"
 
-int main()
-{
+travel::Projet projet;
 
-    fs::path exePath = fs::current_path();
-    fs::path dataPath = exePath / "data";
+int main(int argc, char *argv[]) {
+    QApplication app(argc, argv);
+
     
-    std::string stationsFile = (dataPath / "s.csv").string();
-    std::string connectionsFile = (dataPath / "c.csv").string();
+    if (!std::filesystem::exists("data/s.csv"))
+        qDebug() << "❌ Fichier stations.csv introuvable";
 
-    // Le reste de votre code...
-    Projet generic;
-    generic.read_stations(stationsFile);
-    generic.read_connections(connectionsFile);
-    // Demander � l'utlisateur de saisir les deux station de d�part et d'arriver
-    std::string _start(""), _end("");
-    do{
-        std::cout << "Saisisez le nom de la station de depart : "; std::cin >> _start;
-        if(_start=="")
-            std::cout << "Vous n'avez rien saisie!" << std::endl;
-    }while(_start=="");
+    if (!std::filesystem::exists("data/c.csv"))
+        qDebug() << "❌ Fichier aretes.csv introuvable";
 
-    do{
-        std::cout << "Saisisez le nom de la station d'arriver : "; std::cin >> _end;
-        if(_end=="")
-            std::cout << "Vous n'avez rien saisie!" << std::endl;
-    }while(_end=="");
+    
+    projet.read_stations("data/s.csv");
+    projet.read_connections("data/c.csv");
 
-    // Trouver le plus court chemin
-    try{
-    generic.compute_and_display_travel(_start, _end); //2062 //1638
-    }catch(std::string const& s){
-        std::cout << s << std::endl;
-    }
+    
+    MainWindow window;
+    window.show();
 
-    return EXIT_SUCCESS;
+    return app.exec();
 }
-

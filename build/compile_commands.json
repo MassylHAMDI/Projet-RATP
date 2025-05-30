@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Users/aha/Projet-RATP/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SVGWIDGETS_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/aha/Projet-RATP/build/RATP_PROJET_autogen/include -IC:/Users/aha/Projet-RATP/include -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -isystem C:/Qt/6.9.0/mingw_64/include/QtSvg -isystem C:/Qt/6.9.0/mingw_64/include/QtSvgWidgets -g -std=gnu++17 -o CMakeFiles\\RATP_PROJET.dir\\RATP_PROJET_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\aha\\Projet-RATP\\build\\RATP_PROJET_autogen\\mocs_compilation.cpp",
+  "file": "C:\\Users\\aha\\Projet-RATP\\build\\RATP_PROJET_autogen\\mocs_compilation.cpp",
+  "output": "CMakeFiles\\RATP_PROJET.dir\\RATP_PROJET_autogen\\mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/aha/Projet-RATP/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SVGWIDGETS_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/aha/Projet-RATP/build/RATP_PROJET_autogen/include -IC:/Users/aha/Projet-RATP/include -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -isystem C:/Qt/6.9.0/mingw_64/include/QtSvg -isystem C:/Qt/6.9.0/mingw_64/include/QtSvgWidgets -g -std=gnu++17 -o CMakeFiles\\RATP_PROJET.dir\\src\\main.cpp.obj -c C:\\Users\\aha\\Projet-RATP\\src\\main.cpp",
+  "file": "C:\\Users\\aha\\Projet-RATP\\src\\main.cpp",
+  "output": "CMakeFiles\\RATP_PROJET.dir\\src\\main.cpp.obj"
+},
+{
+  "directory": "C:/Users/aha/Projet-RATP/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SVGWIDGETS_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/aha/Projet-RATP/build/RATP_PROJET_autogen/include -IC:/Users/aha/Projet-RATP/include -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -isystem C:/Qt/6.9.0/mingw_64/include/QtSvg -isystem C:/Qt/6.9.0/mingw_64/include/QtSvgWidgets -g -std=gnu++17 -o CMakeFiles\\RATP_PROJET.dir\\src\\Projet.cpp.obj -c C:\\Users\\aha\\Projet-RATP\\src\\Projet.cpp",
+  "file": "C:\\Users\\aha\\Projet-RATP\\src\\Projet.cpp",
+  "output": "CMakeFiles\\RATP_PROJET.dir\\src\\Projet.cpp.obj"
+},
+{
+  "directory": "C:/Users/aha/Projet-RATP/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SVGWIDGETS_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/aha/Projet-RATP/build/RATP_PROJET_autogen/include -IC:/Users/aha/Projet-RATP/include -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -isystem C:/Qt/6.9.0/mingw_64/include/QtSvg -isystem C:/Qt/6.9.0/mingw_64/include/QtSvgWidgets -g -std=gnu++17 -o CMakeFiles\\RATP_PROJET.dir\\src\\mainwindow.cpp.obj -c C:\\Users\\aha\\Projet-RATP\\src\\mainwindow.cpp",
+  "file": "C:\\Users\\aha\\Projet-RATP\\src\\mainwindow.cpp",
+  "output": "CMakeFiles\\RATP_PROJET.dir\\src\\mainwindow.cpp.obj"
+}
+]

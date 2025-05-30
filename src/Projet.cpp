@@ -1,4 +1,4 @@
-#include "../include/Projet.hpp"
+#include "Projet.hpp"
 
 void Projet::read_stations(const std::string& _filename) {
         std::string name_file(_filename);
@@ -259,3 +259,9 @@ void Projet::read_stations(const std::string& _filename) {
 
         return compute_and_display_travel(start_id, end_id);
     }
+std::vector<std::string> Projet::getAllStationNames() const {
+    std::vector<std::string> names;
+    for (const auto& pair : stations_hashmap)
+        names.push_back(pair.second.name);
+    return names;
+}
